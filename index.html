@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Spelling Shed - 1,000 Words Edition</title>
+    <title>Spellingbell - 1,000 Words Edition</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@700;900&display=swap');
 
         :root {
-            --shed-yellow: #ffcc29;
-            --shed-orange: #f5b041;
-            --shed-dark: #3e2723;
-            --shed-green: #4caf50;
-            --shed-red: #f44336;
-            --tile-hover: #ffdb58;
-            --bg-color: #fcedb3;
+            --shed-yellow: #ffc929;
+            --shed-orange: #f5b841;
+            --shed-dark: #3e2733;
+            --shed-green: #465f50;
+            --shed-red: #f41336;
+            --tile-hover: #ff9b58;
+            --bg-color: #f9edb3;
         }
 
         body {
@@ -252,7 +252,7 @@
             <input type="text" id="newUserName" placeholder="Name">
             <button class="account-btn" onclick="createProfile()">Add</button>
         </div>
-        <div style="color: var(--shed-orange);">🍯 Honey Pots: <span id="userPots">0</span></div>
+        <div style="color: var(--shed-orange);"> 🔔 Bells: <span id="userPots">0</span></div>
     </div>
 
     <!-- Main Game Wrapper -->
@@ -271,9 +271,9 @@
             <div>Word: <span id="wordProgress">1/200</span></div>
         </div>
 
-        <h1>🐝 Spelling Shed 🐝</h1>
+        <h1> 🔔 Spellingbell 🔔</h1>
 
-        <button class="bee-speaker" onclick="speakWord()" title="Listen to word">🐝</button>
+        <button class="bee-speaker" onclick="speakWord()" title="Listen to word">⚡️</button>
         <div class="hint-text" id="hintText">Press the bee to hear the word!</div>
 
         <!-- Spelling Target Slots -->
@@ -301,9 +301,9 @@
             // Stage 3: Intermediate Spelling Words (200 words)
             ["because","friend","beautiful","people","their","should","would","could","before","around","another","brother","sister","family","garden","window","yellow","orange","purple","circle","square","doctor","animal","dragon","monkey","rabbit","turtle","pocket","basket","pencil","school","teacher","planet","silver","forest","castle","summer","winter","spring","autumn","flower","butter","cheese","dinner","lunch","breakfast","shadow","mirror","feather","blanket"],
             // Stage 4: Advanced Classroom List (200 words)
-            ["accident","believe","breathe","business","calendar","caught","centre","century","certain","circle","complete","consider","continue","decide","different","difficult","disappear","early","earth","eight","eighth","enough","exercise","experience","experiment","extreme","famous","favourite","february","forward","fruit","grammar","group","guard","guide","heard","heart","height","history","imagine","increase","important","interest","island","knowledge","learn","length","library","material","medicine"],
+            ["accident","believe","breathe","business","calendar","caught","centre","tracks","certain","circle","complete","consider","continue","decide","different","difficult","disappear","early","earth","eight","eighth","enough","exercise","experience","experiment","extreme","famous","favourite","february","forward","fruit","grammar","group","guard","guide","heard","heart","height","history","imagine","increase","important","interest","island","knowledge","learn","length","library","material","medicine"],
             // Stage 5: National Competition Master List (200 words)
-            ["accommodate","accompany","according","achieve","aggressive","amateur","ancient","apparent","appreciate","attached","available","average","awkward","bargain","bruise","category","cemetery","committee","communicate","community","competition","conscience","conscious","controversy","convenience","correspond","criticise","curiosity","definite","desperate","determined","dictionary","disastrous","embarrass","environment","equipment","especially","exaggerate","excellent","existence","explanation","frequently","government","guarantee","harass","hindrance","identity","immediate","individual","interfere"]
+            ["catappilars","accompany","according","achieve","aggressive","amateur","ancient","apparent","appreciate","attached","available","average","awkward","bargain","bruise","category","cemetery","committee","communicate","community","competition","conscience","conscious","controversy","convenience","correspond","criticise","curiosity","definite","desperate","determined","dictionary","disastrous","embarrass","environment","equipment","especially","exaggerate","excellent","existence","explanation","frequently","government","guarantee","harass","hindrance","identity","immediate","individual","interfere"]
         ];
 
         // Expands word seeds to guarantee 200 distinct words per level (1,000 total)
